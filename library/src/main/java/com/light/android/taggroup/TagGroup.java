@@ -785,7 +785,7 @@ public class TagGroup extends ViewGroup {
 	/**
 	 * The tag view which has two states can be either NORMAL or INPUT.
 	 */
-	class TagView extends TextView {
+	public class TagView extends TextView {
 		public static final int STATE_NORMAL = 1;
 		public static final int STATE_INPUT = 2;
 
@@ -807,7 +807,7 @@ public class TagGroup extends ViewGroup {
 		/**
 		 * Indicates the tag if checked.
 		 */
-		private boolean isChecked = false;
+		public boolean isChecked = false;
 
 		/**
 		 * Indicates the tag if pressed.
